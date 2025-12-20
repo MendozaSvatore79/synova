@@ -1,0 +1,158 @@
+.brands {
+  width: 100%;
+  padding: 4rem 0 5rem;
+  background: #ffffff;
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(24px) scale(0.98);
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.6s ease;
+}
+
+:global(body[data-loaded="true"]) .brands .inner {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.kicker {
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin: 0;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.subtitle {
+  margin: 0;
+  max-width: 700px;
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.marquee {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  padding: 0.75rem 0;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.track {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: scroll 26s linear infinite;
+  will-change: transform;
+}
+
+.marquee:hover .track {
+  animation-play-state: paused;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.9rem 1.2rem;
+  background: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
+  min-width: 220px;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease,
+    background-color 0.35s ease;
+  color: #0f172a;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.1);
+  border-color: transparent;
+  background-color: #ffffff;
+}
+
+.card:active {
+  transform: translateY(-2px) scale(0.99);
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  font-size: 0.95rem;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.2);
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .brands {
+    padding: 3rem 0 4rem;
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .card {
+    min-width: 200px;
+  }
+}
