@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "logo": "SYNOVA",
+    "subtitle": "SYSTEMS",
+    "aboutUs": "Acerca de nosotros",
+    "services": "Servicios",
+    "solutions": "Soluciones",
+    "caseStudies": "Casos de estudio",
+    "resources": "Recursos",
+    "getInTouch": "Contáctanos",
+    "webDevelopment": "Desarrollo Web",
+    "webDevelopmentDesc": "Sitios web y aplicaciones personalizadas",
+    "mobileDevelopment": "Desarrollo Móvil",
+    "mobileDevelopmentDesc": "Apps para iOS y Android",
+    "apiDevelopment": "Desarrollo de API",
+    "apiDevelopmentDesc": "APIs RESTful y GraphQL",
+    "uiUxDesign": "Diseño UI/UX",
+    "uiUxDesignDesc": "Experiencias de usuario hermosas",
+    "consulting": "Consultoría",
+    "consultingDesc": "Estrategia y asesoramiento técnico",
+    "enterprise": "Soluciones Empresariales",
+    "enterpriseDesc": "Sistemas empresariales escalables",
+    "startups": "Startups y MVPs",
+    "startupsDesc": "Desarrollo rápido de productos",
+    "ecommerce": "E-commerce",
+    "ecommerceDesc": "Tiendas en línea y marketplaces",
+    "blog": "Blog",
+    "blogDesc": "Artículos e insights",
+    "documentation": "Documentación",
+    "documentationDesc": "Guías técnicas",
+    "whitepaper": "Whitepapers",
+    "whitepaperDesc": "Investigación en profundidad"
+  },
+  "hero": {
+    "badge": "¡Bienvenido a Synova!",
+    "title": "Inovando un futuro con tecnología de punta",
+    "subtitle": "Soluciones digitales a tu alcance",
+    "description": "En Synova Systems, transformamos ideas en soluciones digitales innovadoras. Nuestro equipo de expertos está dedicado a crear aplicaciones web y móviles que impulsan el éxito de tu negocio en la era digital.",
+    "getInTouch": "Contáctanos",
+    "bookACall": "Agenda una llamada"
+  },
+  "brands": {
+    "kicker": "MARCAS CONFIABLES",
+    "title": "Tecnologías dominadas",
+    "subtitle": "Trabajamos con las últimas tecnologías para brindarte las mejores soluciones"
+  },
+  "services": {
+    "kicker": "Lo que hacemos",
+    "title": "Nuestros Servicios",
+    "subtitle": "Impulsa tu presencia con experiencia comprobada",
+    "items": [
+      {
+        "title": "Marketing en Redes Sociales",
+        "description": "Crea una historia convincente diseñada para cautivar a tu audiencia. Entendemos la ciencia y el arte detrás de las campañas virales. Con nuestro dedo en el pulso de las últimas tendencias, creamos estrategias que generan conversaciones y construyen comunidades.",
+        "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop",
+        "buttonText": "Conoce más"
+      },
+      {
+        "title": "Publicidad Digital",
+        "description": "Maximiza tu alcance con campañas publicitarias estratégicas en plataformas digitales. Utilizamos análisis de datos y segmentación avanzada para asegurar que tu mensaje llegue a la audiencia correcta en el momento perfecto.",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
+        "buttonText": "Conoce más"
+      },
+      {
+        "title": "Crecimiento de Engagement",
+        "description": "Construye conexiones auténticas con tu audiencia a través de contenido atractivo y estrategias de participación. Convertimos seguidores pasivos en defensores activos de tu marca.",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+        "buttonText": "Conoce más"
+      }
+    ]
+  }
+}

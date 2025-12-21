@@ -58,3 +58,27 @@
     text-align: center;
   }
 }
+// ========== DARK MODE SUPPORT ==========
+:global(.dark) {
+  .primaryButton {
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+
+    &:hover {
+      background: #cbfb45;
+      color: #000000;
+      border-color: #cbfb45;
+    }
+  }
+
+  .secondaryButton {
+    color: #ffffff;
+    border-color: #ffffff;
+
+    &:hover {
+      background: #ffffff;
+      color: #000000;
+    }
+  }
+}

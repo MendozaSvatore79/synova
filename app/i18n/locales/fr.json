@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "logo": "SYNOVA",
+    "subtitle": "SYSTEMS",
+    "aboutUs": "À propos",
+    "services": "Services",
+    "solutions": "Solutions",
+    "caseStudies": "Études de cas",
+    "resources": "Ressources",
+    "getInTouch": "Contactez-nous",
+    "webDevelopment": "Développement Web",
+    "webDevelopmentDesc": "Sites web et applications personnalisés",
+    "mobileDevelopment": "Développement Mobile",
+    "mobileDevelopmentDesc": "Applications iOS et Android",
+    "apiDevelopment": "Développement d'API",
+    "apiDevelopmentDesc": "APIs RESTful et GraphQL",
+    "uiUxDesign": "Design UI/UX",
+    "uiUxDesignDesc": "Belles expériences utilisateur",
+    "consulting": "Conseil",
+    "consultingDesc": "Stratégie et conseils techniques",
+    "enterprise": "Solutions d'Entreprise",
+    "enterpriseDesc": "Systèmes d'entreprise évolutifs",
+    "startups": "Startups et MVP",
+    "startupsDesc": "Développement rapide de produits",
+    "ecommerce": "E-commerce",
+    "ecommerceDesc": "Boutiques en ligne et marketplaces",
+    "blog": "Blog",
+    "blogDesc": "Articles et perspectives",
+    "documentation": "Documentation",
+    "documentationDesc": "Guides techniques",
+    "whitepaper": "Livres blancs",
+    "whitepaperDesc": "Recherche approfondie"
+  },
+  "hero": {
+    "badge": "Bienvenue chez Synova!",
+    "title": "Innover pour un avenir avec une technologie de pointe",
+    "subtitle": "Solutions numériques à votre portée",
+    "description": "Chez Synova Systems, nous transformons les idées en solutions numériques innovantes. Notre équipe d'experts se consacre à la création d'applications web et mobiles qui stimulent le succès de votre entreprise à l'ère numérique.",
+    "getInTouch": "Contactez-nous",
+    "bookACall": "Réserver un appel"
+  },
+  "brands": {
+    "kicker": "MARQUES DE CONFIANCE",
+    "title": "Technologies maîtrisées",
+    "subtitle": "Nous travaillons avec les dernières technologies pour vous offrir les meilleures solutions"
+  },
+  "services": {
+    "kicker": "Ce que nous faisons",
+    "title": "Nos Services",
+    "subtitle": "Propulsez votre présence avec une expertise éprouvée",
+    "items": [
+      {
+        "title": "Marketing des Réseaux Sociaux",
+        "description": "Créez une histoire captivante conçue pour séduire votre public. Nous comprenons la science et l'art des campagnes virales. Avec notre doigt sur le pouls des dernières tendances, nous créons des stratégies qui suscitent des conversations et construisent des communautés.",
+        "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop",
+        "buttonText": "En savoir plus"
+      },
+      {
+        "title": "Publicité Numérique",
+        "description": "Maximisez votre portée avec des campagnes publicitaires stratégiques sur les plateformes numériques. Nous utilisons l'analyse de données et le ciblage avancé pour garantir que votre message atteigne le bon public au moment parfait.",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
+        "buttonText": "En savoir plus"
+      },
+      {
+        "title": "Croissance de l'Engagement",
+        "description": "Établissez des connexions authentiques avec votre public grâce à un contenu engageant et des stratégies de participation. Nous transformons les abonnés passifs en défenseurs actifs de la marque.",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+        "buttonText": "En savoir plus"
+      }
+    ]
+  }
+}

@@ -156,3 +156,37 @@
     min-width: 200px;
   }
 }
+
+// ========== DARK MODE SUPPORT ==========
+:global(.dark) {
+  .brands {
+    background: #0a0a0a;
+  }
+
+  .kicker {
+    color: #94a3b8;
+  }
+
+  .title {
+    color: #f1f5f9;
+  }
+
+  .subtitle {
+    color: #cbd5e1;
+  }
+
+  .card {
+    background: #1a1a1a;
+    color: #f1f5f9;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background: #262626;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .tagline {
+    color: #94a3b8;
+  }
+}

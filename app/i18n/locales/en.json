@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "logo": "SYNOVA",
+    "subtitle": "SYSTEMS",
+    "aboutUs": "About us",
+    "services": "Services",
+    "solutions": "Solutions",
+    "caseStudies": "Case studies",
+    "resources": "Resources",
+    "getInTouch": "Get in touch",
+    "webDevelopment": "Web Development",
+    "webDevelopmentDesc": "Custom websites & web apps",
+    "mobileDevelopment": "Mobile Development",
+    "mobileDevelopmentDesc": "iOS & Android apps",
+    "apiDevelopment": "API Development",
+    "apiDevelopmentDesc": "RESTful & GraphQL APIs",
+    "uiUxDesign": "UI/UX Design",
+    "uiUxDesignDesc": "Beautiful user experiences",
+    "consulting": "Consulting",
+    "consultingDesc": "Technical strategy & advice",
+    "enterprise": "Enterprise Solutions",
+    "enterpriseDesc": "Scalable enterprise systems",
+    "startups": "Startups & MVPs",
+    "startupsDesc": "Rapid product development",
+    "ecommerce": "E-commerce",
+    "ecommerceDesc": "Online stores & marketplaces",
+    "blog": "Blog",
+    "blogDesc": "Articles & insights",
+    "documentation": "Documentation",
+    "documentationDesc": "Technical guides",
+    "whitepaper": "Whitepapers",
+    "whitepaperDesc": "In-depth research"
+  },
+  "hero": {
+    "badge": "Welcome to Synova!",
+    "title": "Innovating a future with cutting-edge technology",
+    "subtitle": "Digital solutions within your reach",
+    "description": "At Synova Systems, we transform ideas into innovative digital solutions. Our team of experts is dedicated to creating web and mobile applications that drive your business success in the digital age.",
+    "getInTouch": "Get in touch",
+    "bookACall": "Book a call"
+  },
+  "brands": {
+    "kicker": "TRUSTED BRANDS",
+    "title": "Technologies mastered",
+    "subtitle": "We work with the latest technologies to bring you the best solutions"
+  },
+  "services": {
+    "kicker": "What we do",
+    "title": "Our Services",
+    "subtitle": "Propel Your Presence with Proven Expertise",
+    "items": [
+      {
+        "title": "Social Media Marketing",
+        "description": "Craft a compelling story designed to enthral your audience. We understand the science and art behind viral campaigns. With our finger on the pulse of the latest trends, we create strategies that spark conversations and build communities.",
+        "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop",
+        "buttonText": "Learn more"
+      },
+      {
+        "title": "Digital Advertising",
+        "description": "Maximize your reach with strategic advertising campaigns on digital platforms. We use data analytics and advanced targeting to ensure your message reaches the right audience at the perfect time.",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
+        "buttonText": "Learn more"
+      },
+      {
+        "title": "Engagement Growth",
+        "description": "Build authentic connections with your audience through engaging content and participation strategies. We turn passive followers into active brand advocates.",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+        "buttonText": "Learn more"
+      }
+    ]
+  }
+}

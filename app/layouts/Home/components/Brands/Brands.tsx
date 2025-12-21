@@ -1,3 +1,6 @@
+"use client";
+
+import { useLanguage } from "@/app/i18n/LanguageContext";
 import styles from "./Brands.module.scss";
 import type { BrandItem, PropsBrands } from "./interfaces";
 
@@ -53,16 +56,17 @@ const brands: BrandItem[] = [
 ];
 
 function Brands({}: PropsBrands) {
+  const { t } = useLanguage();
   const loopedBrands = [...brands, ...brands];
 
   return (
-    <section className={styles.brands} aria-label="Marcas que confían en nosotros">
+    <section className={styles.brands} aria-label={t.brands.kicker}>
       <div className={styles.inner}>
         <div className={styles.header}>
-          <p className={styles.kicker}>Marcas que confían en nosotros</p>
-          <h2 className={styles.title}>Teams de alto impacto a nivel global</h2>
+          <p className={styles.kicker}>{t.brands.kicker}</p>
+          <h2 className={styles.title}>{t.brands.title}</h2>
           <p className={styles.subtitle}>
-            Aliados que nos eligen para acelerar productos, modernizar experiencias y lanzar nuevas ideas a escala.
+            {t.brands.subtitle}
           </p>
         </div>
 

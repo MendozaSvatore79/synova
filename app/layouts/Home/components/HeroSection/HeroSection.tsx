@@ -1,24 +1,27 @@
+"use client";
+
+import { useLanguage } from "@/app/i18n/LanguageContext";
 import styles from "./HeroSection.module.scss";
 import type { PropsHeroSection } from "./interfaces";
 import CTAButtons from "../CTAButtons";
 
 function HeroSection({}: PropsHeroSection){
+  const { t } = useLanguage();
+
   return (
     <section className={styles.heroSection}>
       <div className={styles.content}>
         <div className={styles.badge}>
-          Welcome to Synova!
+          {t.hero.badge}
         </div>
         <h1 className={styles.title}>
-          Inovando un futuro <span className={styles.highlight}>con tecnológia de punta</span>
+          {t.hero.title}
         </h1>
         <h1 className={styles.title }>
-          Soluciones digitales <span className={styles.highlight}>a tu alcance</span>
+          {t.hero.subtitle}
         </h1>
         <p className={styles.description}>
-          En Synova Systems, transformamos ideas en soluciones digitales innovadoras. 
-          Nuestro equipo de expertos está dedicado a crear aplicaciones web y móviles 
-          que impulsan el éxito de tu negocio en la era digital.
+          {t.hero.description}
         </p>
         <CTAButtons />
       </div>

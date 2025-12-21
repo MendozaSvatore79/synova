@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "logo": "SYNOVA",
+    "subtitle": "SYSTEMS",
+    "aboutUs": "Sobre nós",
+    "services": "Serviços",
+    "solutions": "Soluções",
+    "caseStudies": "Estudos de caso",
+    "resources": "Recursos",
+    "getInTouch": "Entre em contato",
+    "webDevelopment": "Desenvolvimento Web",
+    "webDevelopmentDesc": "Sites e aplicativos web personalizados",
+    "mobileDevelopment": "Desenvolvimento Mobile",
+    "mobileDevelopmentDesc": "Apps para iOS e Android",
+    "apiDevelopment": "Desenvolvimento de API",
+    "apiDevelopmentDesc": "APIs RESTful e GraphQL",
+    "uiUxDesign": "Design UI/UX",
+    "uiUxDesignDesc": "Experiências de usuário bonitas",
+    "consulting": "Consultoria",
+    "consultingDesc": "Estratégia e consultoria técnica",
+    "enterprise": "Soluções Empresariais",
+    "enterpriseDesc": "Sistemas empresariais escaláveis",
+    "startups": "Startups e MVPs",
+    "startupsDesc": "Desenvolvimento rápido de produtos",
+    "ecommerce": "E-commerce",
+    "ecommerceDesc": "Lojas online e marketplaces",
+    "blog": "Blog",
+    "blogDesc": "Artigos e insights",
+    "documentation": "Documentação",
+    "documentationDesc": "Guias técnicos",
+    "whitepaper": "Whitepapers",
+    "whitepaperDesc": "Pesquisa aprofundada"
+  },
+  "hero": {
+    "badge": "Bem-vindo à Synova!",
+    "title": "Inovando um futuro com tecnologia de ponta",
+    "subtitle": "Soluções digitais ao seu alcance",
+    "description": "Na Synova Systems, transformamos ideias em soluções digitais inovadoras. Nossa equipe de especialistas se dedica a criar aplicativos web e móveis que impulsionam o sucesso do seu negócio na era digital.",
+    "getInTouch": "Entre em contato",
+    "bookACall": "Agendar uma chamada"
+  },
+  "brands": {
+    "kicker": "MARCAS CONFIÁVEIS",
+    "title": "Tecnologias dominadas",
+    "subtitle": "Trabalhamos com as mais recentes tecnologias para oferecer as melhores soluções"
+  },
+  "services": {
+    "kicker": "O que fazemos",
+    "title": "Nossos Serviços",
+    "subtitle": "Impulsione sua presença com experiência comprovada",
+    "items": [
+      {
+        "title": "Marketing de Mídias Sociais",
+        "description": "Crie uma história convincente projetada para encantar seu público. Entendemos a ciência e a arte por trás das campanhas virais. Com nosso dedo no pulso das últimas tendências, criamos estratégias que geram conversas e constroem comunidades.",
+        "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop",
+        "buttonText": "Saiba mais"
+      },
+      {
+        "title": "Publicidade Digital",
+        "description": "Maximize seu alcance com campanhas publicitárias estratégicas em plataformas digitais. Usamos análise de dados e segmentação avançada para garantir que sua mensagem chegue ao público certo no momento perfeito.",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
+        "buttonText": "Saiba mais"
+      },
+      {
+        "title": "Crescimento de Engajamento",
+        "description": "Construa conexões autênticas com seu público através de conteúdo envolvente e estratégias de participação. Transformamos seguidores passivos em defensores ativos da marca.",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+        "buttonText": "Saiba mais"
+      }
+    ]
+  }
+}

@@ -12,6 +12,12 @@
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   animation: fadeInDown 0.5s ease-out;
 
+  :global(.dark) & {
+    background: #1a1a1a;
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+
   @media (max-width: 968px) {
     margin: 0.5rem;
     padding: 0.5rem 0.75rem;
@@ -45,20 +51,36 @@
   transition: transform 0.3s ease;
   z-index: 1001;
 
+  :global(.dark) & {
+    color: #ededed;
+  }
+
   &:hover {
     transform: translateX(4px);
 
     .logoIcon {
       transform: rotate(180deg);
       color: #000000;
+
+      :global(.dark) & {
+        color: #cbfb45;
+      }
     }
 
     .logoText {
       color: #000000;
+
+      :global(.dark) & {
+        color: #cbfb45;
+      }
     }
 
     .logoSubtext {
       color: #000000;
+
+      :global(.dark) & {
+        color: #cbfb45;
+      }
     }
 
     .logoGlow {
@@ -85,6 +107,10 @@
   filter: drop-shadow(0 2px 8px rgba(0, 102, 255, 0));
   position: relative;
   z-index: 2;
+
+  :global(.dark) & {
+    color: #ededed;
+  }
 }
 
 .logoGlow {
@@ -115,6 +141,10 @@
   font-weight: 800;
   letter-spacing: -0.02em;
   transition: color 0.3s ease;
+
+  :global(.dark) & {
+    color: #ededed;
+  }
 }
 
 .logoSubtext {
@@ -124,6 +154,10 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: color 0.3s ease;
+
+  :global(.dark) & {
+    color: #999;
+  }
 }
 
 // ========== NAV LINKS STYLES ==========
@@ -542,7 +576,7 @@
 // ========== MOBILE CTA WRAPPER ==========
 .mobileCtaWrapper {
   display: none;
-  
+
   @media (max-width: 968px) {
     display: block;
     width: 100%;
@@ -554,5 +588,90 @@
       width: 100%;
       justify-content: center;
     }
+  }
+}
+
+// ========== LANGUAGE TOGGLE WRAPPER ==========
+.languageToggleWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0.5rem;
+
+  @media (max-width: 968px) {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+}
+
+// ========== THEME TOGGLE WRAPPER ==========
+.themeToggleWrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+
+  @media (max-width: 968px) {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+}
+// ========== DARK MODE SUPPORT ==========
+:global(.dark) {
+  .navLinks {
+    @media (max-width: 968px) {
+      background: #1a1a1a;
+      border-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .navLink {
+    color: #e0e0e0;
+
+    &:hover {
+      color: #cbfb45;
+      background: rgba(203, 251, 69, 0.1);
+    }
+  }
+
+  .linkText {
+    color: #e0e0e0;
+  }
+
+  .dropdown {
+    background: #1a1a1a;
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .dropdownTitle {
+    color: #cbfb45;
+  }
+
+  .dropdownItem {
+    color: #e0e0e0;
+
+    &:hover {
+      background: rgba(203, 251, 69, 0.1);
+      color: #cbfb45;
+    }
+  }
+
+  .dropdownItemTitle {
+    color: #ffffff;
+  }
+
+  .dropdownItemDesc {
+    color: #999;
+  }
+
+  .hamburger span {
+    background: #ededed;
   }
 }

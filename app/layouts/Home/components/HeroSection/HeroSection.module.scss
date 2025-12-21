@@ -90,3 +90,13 @@
     font-size: 1rem;
   }
 }
+// ========== DARK MODE SUPPORT ==========
+:global(.dark) {
+  .title {
+    color: #ffffff;
+  }
+
+  .description {
+    color: #cccccc;
+  }
+}

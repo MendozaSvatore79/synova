@@ -1,20 +1,23 @@
+"use client";
+
+import { useLanguage } from "@/app/i18n/LanguageContext";
 import styles from "./CTAButtons.module.scss";
 import type { PropsCTAButtons } from "./interfaces";
 import Link from "next/link";
 
 function CTAButtons({
-  primaryText = "Get in touch",
-  secondaryText = "Book a call",
   primaryHref="/contact",
   secondaryHref="/book"
 }: PropsCTAButtons ){
+  const { t } = useLanguage();
+
   return (
     <div className={styles.ctaButtons}>
       <Link href={primaryHref} className={styles.primaryButton}>
-      {primaryText}
+        {t.hero.getInTouch}
       </Link>
       <Link href={secondaryHref} className={styles.secondaryButton}>
-      {secondaryText}
+        {t.hero.bookACall}
       </Link>
     </div>
   )
