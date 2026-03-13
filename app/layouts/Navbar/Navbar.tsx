@@ -58,7 +58,7 @@ function Navbar({}: PropsNavbar) {
         <ul className={`${styles.navLinks} ${mobileMenuOpen ? styles.mobileOpen : ""}`}>
           {/* About Us - Simple Link */}
           <li>
-            <Link href="/about" className={styles.navLink} onClick={closeMobileMenu}>
+            <Link href="/About" className={styles.navLink} onClick={closeMobileMenu}>
               <span className={styles.linkText}>{t.navbar.aboutUs}</span>
               <span className={styles.linkUnderline}></span>
             </Link>

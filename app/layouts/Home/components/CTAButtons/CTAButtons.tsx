@@ -6,7 +6,7 @@ import type { PropsCTAButtons } from "./interfaces";
 import Link from "next/link";
 
 function CTAButtons({
-  primaryHref="/contact",
+  primaryHref="/contacts",
   secondaryHref="/book"
 }: PropsCTAButtons ){
   const { t } = useLanguage();

@@ -1,21 +1,20 @@
 import styles from "./HeroImage.module.scss";
 import type { PropsHeroImage } from "./interfaces";
-import Image from "next/image";
-import hero from "@/public/img/HeroImage.jpg"
+
 function HeroImage({ 
-  src = hero,
+  src = "/videos/hero.video.mp4",
   alt = "Modern office workspace"
 }: PropsHeroImage) {
   return (
     <div className={styles.heroImage}>
       <div className={styles.imageWrapper}>
-        <Image
+        <video
           src={src}
-          alt={alt}
-          width={1400}
-          height={700}
           className={styles.image}
-          priority
+          autoPlay
+          muted
+          loop
+          playsInline
         />
         <div className={styles.imageOverlay}></div>
       </div>

@@ -68,5 +68,170 @@
         "buttonText": "Conoce más"
       }
     ]
+  },
+  "projects": {
+    "kicker": "Casos de estudio",
+    "title": "Mira nuestro trabajo",
+    "subtitle": "Bienvenido a los reflectores, donde la magia de Nova transforma lo ordinario en extraordinario.",
+    "viewAll": "Ver todo",
+    "viewProject": "Ver proyecto",
+    "items": [
+      {
+        "title": "GlowEssence Skincare",
+        "description": "Iluminando la presencia digital de GlowEssence Skincare",
+        "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&auto=format&fit=crop",
+        "tags": ["Facebook", "TikTok"]
+      },
+      {
+        "title": "BrewZen Coffee Retailer",
+        "description": "BrewZen es una cafetería boutique conocida por sus mezclas únicas y su compromiso con la sostenibilidad.",
+        "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1200&auto=format&fit=crop",
+        "tags": ["Instagram", "TikTok"]
+      },
+      {
+        "title": "BurgerHaven Restaurant",
+        "description": "Transformación digital de alto impacto para BurgerHaven Restaurant",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=1200&auto=format&fit=crop",
+        "tags": ["PPC", "SEO"]
+      }
+    ]
+  },
+  "reviews": {
+    "kicker": "Testimonios",
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "No te quedes solo con nuestra palabra; mira lo que dicen las personas increíbles con las que trabajamos.",
+    "items": [
+      {
+        "stars": 5,
+        "quote": "Desde que trabajamos con este increíble equipo de marketing en redes sociales, nuestro engagement online se disparó. Las ventas aumentaron un 30% en pocos meses y el reconocimiento de marca está en su punto más alto. Su enfoque creativo y sus estrategias de publicidad segmentada realmente marcan la diferencia.",
+        "name": "Emily R.",
+        "role": "Dueña de boutique"
+      },
+      {
+        "stars": 5,
+        "quote": "Esta agencia cambió el juego para nuestra startup. Sus estrategias basadas en datos y su profundo conocimiento de los algoritmos de redes sociales impulsaron la generación de leads y las conversiones. El equipo es proactivo, transparente y realmente comprometido con nuestro éxito.",
+        "name": "Marcus L.",
+        "role": "Fundador de startup tech"
+      },
+      {
+        "stars": 5,
+        "quote": "Me sorprendió el impacto inmediato que tuvo su trabajo en nuestras promociones de eventos. Aumentaron la visibilidad y conectaron con nuestra audiencia de forma significativa, logrando un récord de asistentes. Su creatividad y experiencia fueron impresionantes.",
+        "name": "Sophia T.",
+        "role": "Coordinadora de eventos"
+      }
+    ]
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Únete a nuestro boletín para mantenerte al día.",
+      "placeholder": "Ingresa tu correo",
+      "button": "Suscribirse",
+      "note": "Al suscribirte aceptas nuestra Política de Privacidad y das tu consentimiento para recibir actualizaciones de nuestra empresa."
+    },
+    "quickLinks": {
+      "title": "Enlaces rápidos",
+      "items": ["Acerca de nosotros", "Servicios", "Casos de estudio", "Casos de estudio CMS", "Blog", "Blog CMS", "Contacto"]
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "01234 567 890",
+      "email": "info@nova.agency",
+      "addressLines": ["Nova Office Complex", "13 Imaginary Street", "Manchester"]
+    },
+    "follow": {
+      "title": "Síguenos",
+      "items": ["Facebook", "Instagram", "X", "LinkedIn"]
+    },
+    "bottomLeft": "© 2024 Synova Systems - Licencias",
+    "bottomRight": "Diseñado por Synova Systems"
+  },
+  "team": {
+    "kicker": "Con quién trabajas",
+    "title": "Nuestro equipo",
+    "subtitle": "Conoce al equipo detrás de nuestro éxito",
+    "allMembersButton": "Ver todos los miembros",
+    "members": [
+      {
+        "name": "Peter",
+        "role": "CEO",
+        "bio": "James es el fundador de Nova, y le apasiona ayudar a que los negocios crezcan a través de las Redes Sociales.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Claudia",
+        "role": "Analista de Marketing Digital",
+        "bio": "Experta en traducir datos en conocimientos accionables para campañas de marketing en línea estratégicas.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Sarah",
+        "role": "Directora de Estrategia en Redes Sociales",
+        "bio": "Experta en crear historias de marca convincentes en plataformas de redes sociales para mayor compromiso.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Stanley",
+        "role": "Admin",
+        "bio": "Stanley es un maestro del alivio del estrés y en difundir felicidad por toda la oficina.",
+        "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Michael",
+        "role": "Director Creativo",
+        "bio": "Lidera el equipo creativo con ideas innovadoras y un enfoque único para el diseño visual.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Emma",
+        "role": "Gerente de Contenido",
+        "bio": "Especialista en crear contenido que resuena con la audiencia y genera engagement auténtico.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQs",
+    "title": "Preguntas Frecuentes",
+    "subtitle": "A menudo nos preguntan...",
+    "questions": [
+      {
+        "question": "¿Qué servicios ofrecen?",
+        "answer": "Ofrecemos una amplia gama de servicios digitales incluyendo desarrollo web, desarrollo de aplicaciones móviles, diseño UI/UX, desarrollo de API y consultoría técnica para ayudar a tu negocio a prosperar en la era digital."
+      },
+      {
+        "question": "¿Cómo miden el éxito en el marketing de redes sociales?",
+        "answer": "Medimos el éxito a través de indicadores clave de rendimiento (KPI) como tasas de compromiso, alcance, conversiones, crecimiento de seguidores y ROI. Proporcionamos reportes analíticos detallados para rastrear el rendimiento de tu campaña."
+      },
+      {
+        "question": "¿Pueden manejar todas las plataformas de redes sociales?",
+        "answer": "Sí, tenemos experiencia en todas las principales plataformas de redes sociales incluyendo Facebook, Instagram, Twitter, LinkedIn, TikTok y YouTube. Adaptamos nuestras estrategias a la audiencia única y características de cada plataforma."
+      },
+      {
+        "question": "¿Qué hace que tu agencia sea diferente?",
+        "answer": "Nuestro enfoque único combina estrategias basadas en datos con narrativa creativa. Nos enfocamos en construir conexiones auténticas con tu audiencia y entregar resultados medibles a través de reportes transparentes y optimización continua."
+      },
+      {
+        "question": "¿Cómo comenzamos?",
+        "answer": "¡Comenzar es fácil! Simplemente contáctanos a través de nuestro sitio web o llámanos. Programaremos una consulta para entender tus necesidades, discutir tus objetivos y crear una estrategia personalizada para tu negocio."
+      }
+    ],
+    "cta": {
+      "title": "¿Aún tienes preguntas?",
+      "description": "Contacta a uno de nuestros expertos para descubrir cómo podemos ayudar a tu negocio hoy.",
+      "buttonText": "Contáctanos"
+    }
   }
 }
+

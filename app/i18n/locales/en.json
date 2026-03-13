@@ -68,5 +68,169 @@
         "buttonText": "Learn more"
       }
     ]
+  },
+  "projects": {
+    "kicker": "Case studies",
+    "title": "See our work",
+    "subtitle": "Welcome to the spotlight, where Nova's magic touches down, turning the ordinary into the extraordinary.",
+    "viewAll": "View all",
+    "viewProject": "View project",
+    "items": [
+      {
+        "title": "GlowEssence Skincare",
+        "description": "Illuminating the Digital Presence of GlowEssence Skincare",
+        "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&auto=format&fit=crop",
+        "tags": ["Facebook", "TikTok"]
+      },
+      {
+        "title": "BrewZen Coffee Retailer",
+        "description": "BrewZen is a boutique coffee retailer known for its unique blends and commitment to sustainability.",
+        "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1200&auto=format&fit=crop",
+        "tags": ["Instagram", "TikTok"]
+      },
+      {
+        "title": "BurgerHaven Restaurant",
+        "description": "Sizzling Digital Transformation for BurgerHaven Restaurant",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=1200&auto=format&fit=crop",
+        "tags": ["PPC", "SEO"]
+      }
+    ]
+  },
+  "reviews": {
+    "kicker": "Testimonials",
+    "title": "What our clients say",
+    "subtitle": "Don't just take our word for it, see what the awesome people we work with have to say.",
+    "items": [
+      {
+        "stars": 5,
+        "quote": "Since partnering with this incredible social media marketing team, our online engagement has skyrocketed! Sales have increased by 30% in just a few months, and our brand awareness is at an all-time high. Their creative approach and targeted advertising strategies really make a difference.",
+        "name": "Emily R.",
+        "role": "Boutique Owner"
+      },
+      {
+        "stars": 5,
+        "quote": "This agency has been a game-changer for our startup. Their data-driven strategies and deep understanding of social media algorithms have significantly boosted our lead generation and conversion rates. The team is proactive, transparent, and really dedicated to our success.",
+        "name": "Marcus L.",
+        "role": "Tech Startup Founder"
+      },
+      {
+        "stars": 5,
+        "quote": "I was amazed by the immediate impact their work had on our event promotions. Not only did they increase our event's visibility, but they also engaged our target audience in meaningful ways, leading to a record number of attendees. Their attention to detail, creativity, and expertise were beyond impressive.",
+        "name": "Sophia T.",
+        "role": "Event Coordinator"
+      }
+    ]
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Join our newsletter to stay up to date.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "note": "By subscribing you agree to our Privacy Policy and provide consent to receive updates from our company."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "items": ["About us", "Services", "Case studies", "Case studies CMS", "Blog", "Blog post CMS", "Contact"]
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "01234 567 890",
+      "email": "info@nova.agency",
+      "addressLines": ["Nova Office Complex", "13 Imaginary Street", "Manchester"]
+    },
+    "follow": {
+      "title": "Follow us",
+      "items": ["Facebook", "Instagram", "X", "LinkedIn"]
+    },
+    "bottomLeft": "© 2026 Synova Systems - Licensing",
+    "bottomRight": "Designed by Synova Systems®"
+  },
+  "team": {
+    "kicker": "Who you work with",
+    "title": "Our team",
+    "subtitle": "Meet the team behind our success",
+    "allMembersButton": "All team members",
+    "members": [
+      {
+        "name": "Peter",
+        "role": "CEO",
+        "bio": "James is the founder of Nova, and passionate about helping businesses grow through Social Media.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Claudia",
+        "role": "Digital Marketing Analyst",
+        "bio": "Skilled in translating data into actionable insights for strategic online marketing campaigns.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Sarah",
+        "role": "Social Media Strategy Director",
+        "bio": "Expert in crafting compelling brand stories on social media platforms for heightened engagement.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Stanley",
+        "role": "Admin",
+        "bio": "Stanley is a master at stress relief and spreading happiness throughout the office.",
+        "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Michael",
+        "role": "Creative Director",
+        "bio": "Leads the creative team with innovative ideas and a unique approach to visual design.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Emma",
+        "role": "Content Manager",
+        "bio": "Specialist in creating content that resonates with the audience and generates authentic engagement.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQs",
+    "title": "Frequently Asked Questions",
+    "subtitle": "We are often asked...",
+    "questions": [
+      {
+        "question": "What services do you offer?",
+        "answer": "We offer a comprehensive range of digital services including web development, mobile app development, UI/UX design, API development, and technical consulting to help your business thrive in the digital age."
+      },
+      {
+        "question": "How do you measure success in social media marketing?",
+        "answer": "We measure success through key performance indicators (KPIs) such as engagement rates, reach, conversions, follower growth, and ROI. We provide detailed analytics reports to track your campaign performance."
+      },
+      {
+        "question": "Can you handle all social media platforms?",
+        "answer": "Yes, we have expertise across all major social media platforms including Facebook, Instagram, Twitter, LinkedIn, TikTok, and YouTube. We tailor our strategies to each platform's unique audience and features."
+      },
+      {
+        "question": "What makes your agency different from others?",
+        "answer": "Our unique approach combines data-driven strategies with creative storytelling. We focus on building authentic connections with your audience and deliver measurable results through transparent reporting and continuous optimization."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Getting started is easy! Simply contact us through our website or give us a call. We'll schedule a consultation to understand your needs, discuss your goals, and create a customized strategy for your business."
+      }
+    ],
+    "cta": {
+      "title": "Still have questions?",
+      "description": "Contact one of our experts to find out how we can help your business today.",
+      "buttonText": "Get in touch"
+    }
   }
 }

@@ -68,5 +68,169 @@
         "buttonText": "Saiba mais"
       }
     ]
+  },
+  "projects": {
+    "kicker": "Estudos de caso",
+    "title": "Veja nosso trabalho",
+    "subtitle": "Bem-vindo aos holofotes, onde a magia da Nova transforma o comum em extraordinário.",
+    "viewAll": "Ver tudo",
+    "viewProject": "Ver projeto",
+    "items": [
+      {
+        "title": "GlowEssence Skincare",
+        "description": "Iluminando a presença digital da GlowEssence Skincare",
+        "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&auto=format&fit=crop",
+        "tags": ["Facebook", "TikTok"]
+      },
+      {
+        "title": "BrewZen Coffee Retailer",
+        "description": "BrewZen é uma cafeteria boutique conhecida por suas misturas únicas e seu compromisso com a sustentabilidade.",
+        "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1200&auto=format&fit=crop",
+        "tags": ["Instagram", "TikTok"]
+      },
+      {
+        "title": "BurgerHaven Restaurant",
+        "description": "Transformação digital de alto impacto para o BurgerHaven Restaurant",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=1200&auto=format&fit=crop",
+        "tags": ["PPC", "SEO"]
+      }
+    ]
+  },
+  "reviews": {
+    "kicker": "Depoimentos",
+    "title": "O que nossos clientes dizem",
+    "subtitle": "Não acredite apenas na nossa palavra, veja o que as pessoas incríveis com quem trabalhamos têm a dizer.",
+    "items": [
+      {
+        "stars": 5,
+        "quote": "Desde que fizemos parceria com essa equipe incrível de marketing de mídia social, nosso engajamento online disparou. As vendas aumentaram 30% em poucos meses e o reconhecimento da marca está em seu ponto mais alto. A abordagem criativa e as estratégias de anúncios segmentados realmente fazem a diferença.",
+        "name": "Emily R.",
+        "role": "Dona de boutique"
+      },
+      {
+        "stars": 5,
+        "quote": "Esta agência foi um divisor de águas para nossa startup. Suas estratégias orientadas por dados e o profundo entendimento dos algoritmos de redes sociais impulsionaram nossos leads e conversões. A equipe é proativa, transparente e realmente dedicada ao nosso sucesso.",
+        "name": "Marcus L.",
+        "role": "Fundador de startup tech"
+      },
+      {
+        "stars": 5,
+        "quote": "Fiquei impressionada com o impacto imediato do trabalho deles nas promoções dos nossos eventos. Eles aumentaram a visibilidade e engajaram nosso público de forma significativa, alcançando um número recorde de participantes. A criatividade e a expertise foram impressionantes.",
+        "name": "Sophia T.",
+        "role": "Coordenadora de eventos"
+      }
+    ]
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Assine nossa newsletter para ficar por dentro.",
+      "placeholder": "Digite seu e-mail",
+      "button": "Assinar",
+      "note": "Ao assinar, você concorda com nossa Política de Privacidade e autoriza o recebimento de atualizações da nossa empresa."
+    },
+    "quickLinks": {
+      "title": "Links rápidos",
+      "items": ["Sobre nós", "Serviços", "Estudos de caso", "Estudos de caso CMS", "Blog", "Blog CMS", "Contato"]
+    },
+    "contact": {
+      "title": "Contato",
+      "phone": "01234 567 890",
+      "email": "info@nova.agency",
+      "addressLines": ["Nova Office Complex", "13 Imaginary Street", "Manchester"]
+    },
+    "follow": {
+      "title": "Siga-nos",
+      "items": ["Facebook", "Instagram", "X", "LinkedIn"]
+    },
+    "bottomLeft": "© 2025 Synova Systems - Licenciamento",
+    "bottomRight": "Projetado por Synova Systems®"
+  },
+  "team": {
+    "kicker": "Com quem você trabalha",
+    "title": "Nosso time",
+    "subtitle": "Conheça o time por trás do nosso sucesso",
+    "allMembersButton": "Todos os membros do time",
+    "members": [
+      {
+        "name": "Peter",
+        "role": "CEO",
+        "bio": "James é o fundador da Nova e apaixonado por ajudar empresas a crescerem através das Redes Sociais.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Claudia",
+        "role": "Analista de Marketing Digital",
+        "bio": "Especialista em traduzir dados em insights acionáveis para campanhas de marketing online estratégicas.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Sarah",
+        "role": "Diretora de Estratégia em Redes Sociais",
+        "bio": "Especialista em criar histórias de marca convincentes em redes sociais para maior engajamento.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Stanley",
+        "role": "Admin",
+        "bio": "Stanley é mestre em aliviar estresse e espalhar felicidade por todo o escritório.",
+        "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Michael",
+        "role": "Diretor Criativo",
+        "bio": "Lidera o time criativo com ideias inovadoras e uma abordagem única para o design visual.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      },
+      {
+        "name": "Emma",
+        "role": "Gerente de Conteúdo",
+        "bio": "Especialista em criar conteúdo que ressoa com o público e gera engajamento autêntico.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&auto=format&fit=crop",
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQs",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Somos frequentemente questionados...",
+    "questions": [
+      {
+        "question": "Quais serviços vocês oferecem?",
+        "answer": "Oferecemos uma gama abrangente de serviços digitais incluindo desenvolvimento web, desenvolvimento de aplicativos móveis, design UI/UX, desenvolvimento de API e consultoria técnica para ajudar seu negócio a prosperar na era digital."
+      },
+      {
+        "question": "Como vocês medem o sucesso em marketing de mídia social?",
+        "answer": "Medimos o sucesso através de indicadores-chave de desempenho (KPIs) como taxas de engajamento, alcance, conversões, crescimento de seguidores e ROI. Fornecemos relatórios analíticos detalhados para acompanhar o desempenho de sua campanha."
+      },
+      {
+        "question": "Vocês conseguem lidar com todas as plataformas de mídia social?",
+        "answer": "Sim, temos expertise em todas as principais plataformas de mídia social incluindo Facebook, Instagram, Twitter, LinkedIn, TikTok e YouTube. Adaptamos nossas estratégias para o público único e recursos de cada plataforma."
+      },
+      {
+        "question": "O que torna sua agência diferente das outras?",
+        "answer": "Nossa abordagem única combina estratégias baseadas em dados com narrativas criativas. Focamos em construir conexões autênticas com seu público e entregar resultados mensuráveis através de relatórios transparentes e otimização contínua."
+      },
+      {
+        "question": "Como começamos?",
+        "answer": "Começar é fácil! Simplesmente entre em contato conosco através do nosso site ou nos ligue. Agendaremos uma consulta para entender suas necessidades, discutir seus objetivos e criar uma estratégia personalizada para seu negócio."
+      }
+    ],
+    "cta": {
+      "title": "Ainda tem dúvidas?",
+      "description": "Entre em contato com um de nossos especialistas para descobrir como podemos ajudar seu negócio hoje.",
+      "buttonText": "Entre em contato"
+    }
   }
 }
