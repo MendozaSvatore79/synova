@@ -232,5 +232,63 @@
       "description": "Contact one of our experts to find out how we can help your business today.",
       "buttonText": "Get in touch"
     }
+  },
+  "about": {
+    "hero": {
+      "kicker": "About us",
+      "title": "Connecting Your Brand to the World, One Click at a Time.",
+      "description": "We're not just a social media marketing agency—we're your ticket to digital excellence and engagement growth. With a canvas as vast as the internet, your business has limitless potential to connect with its audience.",
+      "cta1": "Get in touch",
+      "cta2": "Book a call"
+    },
+    "brands": {
+      "title": "Brands we work with",
+      "items": ["Logoipsum", "Logoipsum", "Logoipsum", "Logoipsum", "Logoipsum", "Logoipsum"]
+    },
+    "snapshot": {
+      "kicker": "About Nova",
+      "title": "Our company snapshot",
+      "description": "Founded in Manchester in 2011, Synova is a cutting-edge social media marketing agency that empowers brands with tailored strategies, driving unparalleled engagement and growth.",
+      "cta": "Get in touch",
+      "stats": [
+        { "value": "30", "label": "Team members", "description": "Our dedicated team members have played a pivotal role in transforming challenges into success stories." },
+        { "value": "98%", "label": "Satisfaction rate", "description": "Synova boasts an impressive client satisfaction rate of 98%, reflecting our commitment to excellence." },
+        { "value": "236+", "label": "Happy clients", "description": "We've had the privilege of partnering with a diverse range of clients across different industries." }
+      ]
+    },
+    "team": {
+      "kicker": "Who you work with",
+      "title": "Our team",
+      "subtitle": "Meet our specialists behind Nova.",
+      "members": [
+        { "name": "Peter", "role": "CEO", "bio": "Peter is the founder of Nova, passionate about helping businesses grow through Social Media.", "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Sarah", "role": "Social Media Strategy Director", "bio": "Expert in crafting compelling brand stories on social media platforms for heightened engagement.", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Claudia", "role": "Digital Marketing Analyst", "bio": "Skilled in translating data into actionable insights for strategic online marketing campaigns.", "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Stanley", "role": "Admin", "bio": "Stanley is a master at stress relief and spreading happiness throughout the office.", "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Michael", "role": "Creative Director", "bio": "Leads the creative team with innovative ideas and a unique approach to visual design.", "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Emma", "role": "Content Manager", "bio": "Specialist in creating content that resonates with the audience and generates authentic engagement.", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Nathan", "role": "Web Developer", "bio": "Builds high-performance digital experiences with the latest web technologies.", "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Craig", "role": "UX Designer", "bio": "Designs intuitive interfaces and user experiences that delight clients.", "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" }
+      ]
+    },
+    "values": {
+      "kicker": "Our values",
+      "title": "Values behind our work",
+      "items": [
+        { "title": "Creativity and Innovation", "description": "We prioritize fresh, original ideas and pioneering strategies to ensure our clients' brands stand out in the ever-evolving digital landscape." },
+        { "title": "Transparency and Integrity", "description": "Our commitment to honest communication and ethical practices builds trust and exceeds professional standards." },
+        { "title": "Data-Driven Decisions", "description": "Our strategies are informed by analytics, ensuring actions are backed by evidence for maximum ROI." },
+        { "title": "Client-Centric Approach", "description": "We tailor our services to meet each client's unique needs, acting as partners fully invested in their success." },
+        { "title": "Continuous Learning and Adaptation", "description": "We embrace ongoing education and adapt quickly to changes, keeping our strategies on the cutting edge of social media trends." },
+        { "title": "Collaborative Teamwork", "description": "Our team's diverse talents come together in unity, creating synergistic solutions that amplify our clients' social media presence." }
+      ]
+    },
+    "cta": {
+      "kicker": "Get in touch",
+      "title": "Lets work together",
+      "description": "Ready to transform your brand's digital presence and unlock the full potential of social media marketing? Reach out today, and let's start crafting your success story together.",
+      "btn1": "Get in touch",
+      "btn2": "Book a call"
+    }
   }
 }

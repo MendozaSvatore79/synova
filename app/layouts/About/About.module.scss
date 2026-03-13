@@ -1,0 +1,555 @@
+// ─── TOKENS ───────────────────────────────────────────────────────────────────
+// Static values
+$green: #cbfb45;
+$green-glow: rgba(203, 251, 69, 0.3);
+$radius: 16px;
+$pill: 999px;
+
+// Theme-aware aliases (use CSS vars from globals.css)
+$bg:        var(--background);
+$bg-card:   var(--card-bg);
+$bg-mid:    var(--card-bg);          // slightly elevated card bg
+$border:    var(--card-border);
+$text-1:    var(--text-primary);
+$text-2:    var(--text-secondary);
+$text-muted: var(--text-muted);
+
+// ─── HELPERS ──────────────────────────────────────────────────────────────────
+.kicker {
+  display: inline-block;
+  background: rgba(203, 251, 69, 0.12);
+  color: $green;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: $pill;
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: $text-1;
+  line-height: 1.15;
+  margin: 0 0 1rem;
+}
+
+.sectionDesc {
+  font-size: 1rem;
+  color: $text-muted;
+  line-height: 1.7;
+  max-width: 52ch;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: $green;
+  color: #111;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 14px 28px;
+  border-radius: $pill;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  white-space: nowrap;
+
+  &:hover {
+    background: #b8e82e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px $green-glow;
+  }
+}
+
+.btnSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: $text-1;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 14px 28px;
+  border-radius: $pill;
+  border: 1.5px solid $border;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, transform 0.2s;
+
+  &:hover {
+    border-color: $green;
+    color: $green;
+    transform: translateY(-2px);
+  }
+}
+
+// ─── HERO ─────────────────────────────────────────────────────────────────────
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding: 120px 80px 80px;
+  background: $bg;
+  min-height: 80vh;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    padding: 100px 24px 60px;
+    min-height: unset;
+  }
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heroTitle {
+  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+  font-weight: 800;
+  color: $text-1;
+  line-height: 1.1;
+  margin: 0 0 1.25rem;
+}
+
+.heroDesc {
+  font-size: 1.05rem;
+  color: $text-muted;
+  line-height: 1.75;
+  max-width: 50ch;
+  margin-bottom: 2rem;
+}
+
+.heroBtns {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.heroImage {
+  border-radius: $radius;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+// ─── BRANDS ───────────────────────────────────────────────────────────────────
+.brands {
+  background: $bg-card;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+
+  @media (max-width: 768px) {
+    padding: 40px 24px;
+  }
+}
+
+.brandsTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $text-muted;
+  margin: 0;
+}
+
+.brandsGrid {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandItem {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: $text-muted;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $text-2;
+  }
+}
+
+// ─── SNAPSHOT ─────────────────────────────────────────────────────────────────
+.snapshot {
+  background: $bg;
+  padding: 80px;
+
+  @media (max-width: 768px) {
+    padding: 60px 24px;
+  }
+}
+
+.snapshotHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.snapshotGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 16px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: unset;
+  }
+}
+
+// stat cards share base
+%statBase {
+  border-radius: $radius;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.statCard {
+  @extend %statBase;
+  background: $bg-card;
+  border: 1px solid $border;
+}
+
+.statCardDark {
+  @extend %statBase;
+  background: $bg-mid;
+  border: 1px solid $border;
+}
+
+.statCardGreen {
+  @extend %statBase;
+  background: $green;
+}
+
+.statNumber {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 900;
+  color: $text-1;
+  line-height: 1;
+
+  .statCardGreen & {
+    color: #111;
+  }
+}
+
+.statLabel {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: $text-1;
+  margin: 0;
+}
+
+.statLabelLight {
+  @extend .statLabel;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.statDesc {
+  font-size: 0.85rem;
+  color: $text-muted;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.statDescLight {
+  @extend .statDesc;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.snapshotImgLarge {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  border-radius: $radius;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    grid-column: unset;
+    grid-row: unset;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+.snapshotImgSmall {
+  border-radius: $radius;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+// ─── TEAM ─────────────────────────────────────────────────────────────────────
+.team {
+  background: $bg-card;
+  padding: 80px;
+  text-align: center;
+  border-top: 1px solid $border;
+
+  @media (max-width: 768px) {
+    padding: 60px 24px;
+  }
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+  text-align: left;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.memberCard {
+  background: $bg;
+  border-radius: $radius;
+  overflow: hidden;
+  border: 1px solid $border;
+  transition: transform 0.25s, box-shadow 0.25s;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.memberImg {
+  aspect-ratio: 1;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s;
+  }
+
+  .memberCard:hover & img {
+    transform: scale(1.05);
+  }
+}
+
+.memberName {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $text-1;
+  padding: 20px 20px 4px;
+  margin: 0;
+}
+
+.memberRole {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: $green;
+  padding: 0 20px 10px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.memberBio {
+  font-size: 0.85rem;
+  color: $text-muted;
+  line-height: 1.6;
+  padding: 0 20px 16px;
+  margin: 0;
+}
+
+.memberLinks {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px 20px;
+}
+
+.socialBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid $border;
+  color: $text-2;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+
+  &:hover {
+    border-color: $green;
+    color: #111;
+    background: $green;
+  }
+}
+
+// ─── VALUES ───────────────────────────────────────────────────────────────────
+.values {
+  background: $bg;
+  padding: 80px;
+  border-top: 1px solid $border;
+
+  @media (max-width: 768px) {
+    padding: 60px 24px;
+  }
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 48px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.valueCard {
+  background: $bg-card;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: 36px;
+  transition: transform 0.25s, box-shadow 0.25s;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.valueCardGreen {
+  background: $green;
+  border-color: transparent;
+
+  .valueTitle {
+    color: #111;
+  }
+
+  .valueDesc {
+    color: rgba(0, 0, 0, 0.65);
+  }
+}
+
+.valueTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $text-1;
+  margin: 0 0 12px;
+}
+
+.valueDesc {
+  font-size: 0.88rem;
+  color: $text-muted;
+  line-height: 1.7;
+  margin: 0;
+}
+
+// ─── CTA ──────────────────────────────────────────────────────────────────────
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding: 80px;
+  background: $bg-card;
+  border-top: 1px solid $border;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    padding: 60px 24px;
+  }
+}
+
+.ctaContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ctaTitle {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 800;
+  color: $text-1;
+  margin: 0 0 1rem;
+  line-height: 1.15;
+}
+
+.ctaDesc {
+  font-size: 1rem;
+  color: $text-muted;
+  line-height: 1.75;
+  max-width: 50ch;
+  margin-bottom: 2rem;
+}
+
+.ctaImage {
+  border-radius: $radius;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s;
+  }
+
+  &:hover img {
+    transform: scale(1.03);
+  }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}

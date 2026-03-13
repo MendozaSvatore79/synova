@@ -232,5 +232,63 @@
       "description": "Entre em contato com um de nossos especialistas para descobrir como podemos ajudar seu negócio hoje.",
       "buttonText": "Entre em contato"
     }
+  },
+  "about": {
+    "hero": {
+      "kicker": "Sobre nós",
+      "title": "Conectando sua marca ao mundo, um clique de cada vez.",
+      "description": "Não somos apenas uma agência de marketing em mídias sociais — somos seu passaporte para a excelência digital. Com um canvas tão vasto quanto a internet, seu negócio tem potencial ilimitado para se conectar com seu público.",
+      "cta1": "Entre em contato",
+      "cta2": "Agendar uma chamada"
+    },
+    "brands": {
+      "title": "Marcas com que trabalhamos",
+      "items": ["Logoipsum", "Logoipsum", "Logoipsum", "Logoipsum", "Logoipsum", "Logoipsum"]
+    },
+    "snapshot": {
+      "kicker": "Sobre a Nova",
+      "title": "Resumo da nossa empresa",
+      "description": "Fundada em Manchester em 2011, a Synova é uma agência de marketing digital de ponta que capacita marcas com estratégias personalizadas, gerando engajamento e crescimento incomparáveis.",
+      "cta": "Entre em contato",
+      "stats": [
+        { "value": "30", "label": "Membros da equipe", "description": "Nossos dedicados membros da equipe têm desempenhado um papel fundamental na transformação de desafios em histórias de sucesso." },
+        { "value": "98%", "label": "Taxa de satisfação", "description": "A Synova conta com uma impressionante taxa de satisfação de 98%, refletindo nosso compromisso com a excelência." },
+        { "value": "236+", "label": "Clientes felizes", "description": "Tivemos o privilégio de fazer parcerias com uma grande variedade de clientes de diferentes setores." }
+      ]
+    },
+    "team": {
+      "kicker": "Com quem você trabalha",
+      "title": "Nosso time",
+      "subtitle": "Conheça nossos especialistas na Nova.",
+      "members": [
+        { "name": "Peter", "role": "CEO", "bio": "Peter é o fundador da Nova, apaixonado por ajudar empresas a crescerem através das Redes Sociais.", "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Sarah", "role": "Diretora de Estratégia", "bio": "Especialista em criar histórias de marca convincentes em redes sociais para maior engajamento.", "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Claudia", "role": "Analista de Marketing", "bio": "Especialista em traduzir dados em insights acionáveis para campanhas de marketing estratégicas.", "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Stanley", "role": "Admin", "bio": "Stanley é mestre em aliviar estresse e espalhar felicidade por todo o escritório.", "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Michael", "role": "Diretor Criativo", "bio": "Lidera o time criativo com ideias inovadoras e uma abordagem única para o design visual.", "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Emma", "role": "Gerente de Conteúdo", "bio": "Especialista em criar conteúdo que ressoa com o público e gera engajamento autêntico.", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Nathan", "role": "Desenvolvedor Web", "bio": "Constrói experiências digitais de alto desempenho com as mais recentes tecnologias web.", "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" },
+        { "name": "Craig", "role": "Designer UX", "bio": "Projeta interfaces intuitivas e experiências de usuário que encantam os clientes.", "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&auto=format&fit=crop", "linkedin": "#", "twitter": "#" }
+      ]
+    },
+    "values": {
+      "kicker": "Nossos valores",
+      "title": "Valores por trás do nosso trabalho",
+      "items": [
+        { "title": "Criatividade e Inovação", "description": "Priorizamos ideias frescas e originais e estratégias pioneiras para garantir que as marcas dos nossos clientes se destaquem no cenário digital em constante evolução." },
+        { "title": "Transparência e Integridade", "description": "Nosso compromisso com a comunicação honesta e práticas éticas constrói confiança e supera os padrões profissionais." },
+        { "title": "Decisões Baseadas em Dados", "description": "Nossas estratégias são embasadas por análises, garantindo ações respaldadas por evidências para o máximo ROI." },
+        { "title": "Abordagem Centrada no Cliente", "description": "Adaptamos nossos serviços para atender às necessidades únicas de cada cliente, atuando como parceiros totalmente comprometidos com o seu sucesso." },
+        { "title": "Aprendizado e Adaptação Contínuos", "description": "Abraçamos a educação contínua e nos adaptamos rapidamente às mudanças, mantendo nossas estratégias na vanguarda das redes sociais." },
+        { "title": "Trabalho em Equipe Colaborativo", "description": "Os diversos talentos da nossa equipe se unem em harmonia, criando soluções sinérgicas que ampliam a presença nas redes sociais dos nossos clientes." }
+      ]
+    },
+    "cta": {
+      "kicker": "Entre em contato",
+      "title": "Vamos trabalhar juntos",
+      "description": "Pronto para transformar a presença digital da sua marca e desbloquear todo o potencial das mídias sociais? Entre em contato hoje e vamos começar a construir sua história de sucesso.",
+      "btn1": "Entre em contato",
+      "btn2": "Agendar uma chamada"
+    }
   }
 }
