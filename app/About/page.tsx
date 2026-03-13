@@ -5,9 +5,15 @@ import Footer from "@/app/layouts/Footer";
 import PageTransition from "@/app/layouts/PageTransition";
 
 export const metadata: Metadata = {
-  title: "Nosotros",
+  title: "Nosotros | Equipo experto en tecnología empresarial",
   description:
-    "Conoce al equipo de Synova Systems, nuestra visión y experiencia en soluciones tecnológicas para empresas.",
+    "Conoce el equipo de Synova Systems y nuestra experiencia creando soluciones tecnológicas para empresas.",
+  keywords: [
+    "equipo de tecnología empresarial",
+    "consultoría tecnológica",
+    "expertos en automatización",
+    "empresa de desarrollo web",
+  ],
   alternates: {
     canonical: "/About",
   },

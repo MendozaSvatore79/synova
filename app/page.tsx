@@ -5,9 +5,16 @@ import PageTransition from "./layouts/PageTransition";
 import Footer from "./layouts/Footer";
 
 export const metadata: Metadata = {
-  title: "Inicio",
+  title: "Soluciones tecnológicas para empresas",
   description:
-    "Conoce Synova Systems y descubre cómo aceleramos procesos con tecnología, diseño y automatización empresarial.",
+    "Ayudamos a empresas a crecer con automatización, desarrollo web y soluciones técnicas a medida.",
+  keywords: [
+    "soluciones tecnológicas para empresas",
+    "automatización empresarial",
+    "desarrollo web empresarial",
+    "software a medida",
+    "consultoría tecnológica",
+  ],
   alternates: {
     canonical: "/",
   },
